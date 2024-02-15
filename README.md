@@ -79,3 +79,14 @@ Blir det `public class User` på en user modell exempelvis?
 En modell är en samling med egenskaper och data som representerar något i en applikation.
 
 De läggs oftast in genom klasser.
+
+---
+
+# Fråga
+
+Hur får man tillgång till `psql` kommandot för Postgres?
+
+# Svar
+
+I docker med kommandot `docker exec -it <container namn> bash` så kan man sedan skriva `psql -U postgres` exempelvis.
+
